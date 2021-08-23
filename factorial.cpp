@@ -5,7 +5,7 @@ using namespace std;
 
 int factorial(int n){
     if (n<0){
-        cout << n << " is not a positive integer \n";
+        printf("%d is not a positive integer \n", n);
     }
     if(n!=1){ 
 	return(n * factorial(n-1)); // Recursive call to calculate factorial
