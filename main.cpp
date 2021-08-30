@@ -8,6 +8,6 @@ int main(){
     cout<<"The factorial of 5 is "<< factorial(5)<< endl;
     int x=56;
     int y=98;
-    cout<<"The gcd of "<<x<<" "<<y<<" "<<" is "<<gcd(x,y)<<"endl";
+    cout<<"The gcd of "<<x<<" "<<y<<" "<<" is "<<gcd(x,y)<<endl;
     return 0;
 }
